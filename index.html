@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suyash B | AI Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="inner one"></div>
+            <div class="inner two"></div>
+            <div class="inner three"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">SB</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" data-aos="fade-up">
+        <div class="hero-content">
+            <h1 class="animate-text">Suyash Balasubramaniam</h1>
+            <div class="typewriter">
+                <span id="typed-text"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="subtitle">AI & Data Science Student at Sri Sairam Engineering College</p>
+            <div class="hero-description">
+                <p>Specializing in Computer Vision & Large Language Models</p>
+                <div class="tech-stack">
+                    <span>TensorFlow</span>
+                    <span>PyTorch</span>
+                    <span>OpenCV</span>
+                    <span>LangChain</span>
+                </div>
+                <div class="cv-download">
+                    <a href="resume.pdf" download class="download-btn">
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bio Section -->
+    <section id="about" class="bio">
+        <div class="bio-container">
+            <div class="bio-image" data-aos="fade-right">
+                <img src="suyash.jpg" alt="Suyash Balasubramaniam" class="profile-photo">
+            </div>
+            <div class="bio-content" data-aos="fade-left">
+                <h2>About Me</h2>
+
+                <p>Hello! I'm Suyash, a passionate AI & Data Science student with a keen interest in developing innovative solutions using artificial intelligence. My journey in tech began with a fascination for how machines can learn and make decisions, leading me to specialize in Computer Vision and Large Language Models.</p>
+                <p>Currently pursuing my degree at Sri Sairam Engineering College, I focus on bridging the gap between theoretical AI concepts and practical applications. When I'm not coding or training models, you can find me exploring the latest developments in AI technology or contributing to open-source projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 data-aos="fade-up">Education</h2>
+        <div class="education-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="education-header">
+                <img src="college.png" alt="Sri Sairam Engineering College Logo" class="institution-logo" height="200px" width="200px">
+                <div class="education-info">
+                    <h3>B.Tech in Artificial Intelligence and Data Science</h3>
+                    <h4>Sri Sairam Engineering College</h4>
+                    <p class="education-date">2023 - 2027</p>
+                </div>
+            </div>
+            <div class="education-details">
+                <ul>
+                    <li>Specializing in AI/ML, Computer Vision, and Natural Language Processing</li>
+                    <li>Active member of the college technical club</li>
+                    <li>Participating in AI research projects and hackathons</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content">
+                    <div class="company-header">
+                        <div class="company-info">
+                            <h3>Technical Team Member</h3>
+                            <h4>Maestrominds</h4>
+                            <p class="timeline-date">January 2024 - Present</p>
+
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Contributed to AI/ML projects and Digital Twin development</li>
+                        <li>Implemented machine learning solutions for real-world applications</li>
+                        <li>Collaborated on innovative Digital Twin technologies</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content">
+                    <div class="company-header">
+                        <div class="company-info">
+                            <h3>Data Analyst Intern</h3>
+                            <h4>Vebbox Solutions</h4>
+                            <p class="timeline-date">July 2024 - December 2024</p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Conducted data analysis and implemented vector search solutions</li>
+                        <li>Optimized data processing workflows and database performance</li>
+                        <li>Worked on postgreSQL and UI-path</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content">
+                    <div class="company-header">
+                        <div class="company-info">
+                            <h3>Django Full Stack Developer Intern</h3>
+                            <h4>Saint Gobain</h4>
+
+                            <p class="timeline-date">January 2025 - February 2025</p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Developing full-stack web applications using Django framework</li>
+                        <li>Implementing responsive frontend designs and user interfaces</li>
+                        <li>Collaborating with teams to deliver robust web solutions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 data-aos="fade-up">Technical Skills</h2>
+        <div class="skills-grid">
+            <!-- Programming Languages -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                <h3>Programming Languages</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar">
+                        <span class="skill-name">Python</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Java</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">C</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- AI/ML -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <h3>AI/ML</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar">
+                        <span class="skill-name">Deep Learning</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Computer Vision</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">NLP</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Development -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                <h3>Web Development</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar">
+                        <span class="skill-name">HTML/CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Django/Flask</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="75"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Technologies -->
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                <h3>Tools & Technologies</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar">
+                        <span class="skill-name">Git</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">PostgreSQL</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <span class="skill-name">Langflow</span>
+                        <div class="progress-bar">
+                            <div class="progress" data-percent="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 data-aos="fade-up">Academic Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-content">
+                    <h3>CNN for Brain Tumor Detection</h3>
+                    <p>Developed a CNN to analyze medical images (MRI scans) for tumor detection, improving diagnostic accuracy through deep learning.</p>
+                    <div class="project-tech">
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                        <span>OpenCV</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-content">
+                    <h3>LangChain Research</h3>
+                    <p>Research on LangChain framework for building LLM applications, covering architecture and practical use cases.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>LangChain</span>
+                        <span>LLMs</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-content">
+                    <h3>License Plate Detection System</h3>
+                    <p>Built an automated system for detecting and storing vehicle license plates using YOLOv8 for detection, OCR for text extraction, and PostgreSQL for data persistence.</p>
+                    <div class="project-tech">
+                        <span>YOLOv8</span>
+                        <span>OCR</span>
+                        <span>PostgreSQL</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 data-aos="fade-up">Contact Me</h2>
+        <div class="unified-contact-card" data-aos="fade-up" data-aos-delay="200">
+            <!-- Contact Info -->
+            <div class="contact-section">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+917418887594">+91 741-888-7594</a>
+                </div>
+                <div class="contact-divider"></div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:suyashbalasubramaniam@gmail.com">suyashbalasubramaniam@gmail.com</a>
+                </div>
+                <div class="contact-divider"></div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>40, JKK Road<br>Komarapalayam, TN</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            <span class="copyright-symbol">&copy;</span>
+            <span class="year">2025</span>
+            <span class="name">Suyash Balasubramaniam</span>
+        </p>   
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Floating Social Icons -->
+    <div class="floating-socials">
+        <a href="https://github.com/suyashB45" target="_blank" class="float-icon">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/suyashb45/" target="_blank" class="float-icon">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.facebook.com/suyash.balasubramaniam" target="_blank" class="float-icon">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/itz_suyash.45/" target="_blank" class="float-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
