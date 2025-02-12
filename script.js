@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const texts = [
         "AI & Data Science Student",
         "Computer Vision Enthusiast",
-        "LLM Researcher"
+        "Lang Chain Developer",
+        "Data Analyst",
     ];
 
     let textIndex = 0;
