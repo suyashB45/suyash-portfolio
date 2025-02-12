@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 <body>
+    <canvas id="bg-canvas"></canvas>
     <!-- Preloader -->
     <div id="preloader">
         <div class="loader">
@@ -69,9 +71,10 @@
 
     <!-- Bio Section -->
     <section id="about" class="bio">
+        <canvas id="about-canvas"></canvas>
         <div class="bio-container">
             <div class="bio-image" data-aos="fade-right">
-                <img src="Suyash.jpg" alt="Suyash Balasubramaniam" class="profile-photo">
+                <img src="suyash.jpg" alt="Suyash Balasubramaniam" class="profile-photo">
             </div>
             <div class="bio-content" data-aos="fade-left">
                 <h2>About Me</h2>
@@ -84,6 +87,7 @@
 
     <!-- Education Section -->
     <section id="education" class="education">
+        <canvas id="education-canvas"></canvas>
         <h2 data-aos="fade-up">Education</h2>
         <div class="education-card" data-aos="fade-up" data-aos-delay="200">
             <div class="education-header">
